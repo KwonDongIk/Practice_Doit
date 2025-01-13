@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>웹 폼</title>
+</head>
+<body>
+	<form action="order.html">
+    <!-- Do it! 폼 안에 자바스크립트 실행 버튼 삽입하기 -->
+    <!-- <input type="submit" value="전송"> -->
+		 <button onclick="form_submit()">전송</button>
+
+		 <script>
+				function form_submit(){
+					event.preventDefault();
+					console.log(alert("주문 사이트로 넘어갑니다."));
+					document.forms[0].submit();
+				}
+		 </script>
+  </form>
+</body>
+</html>

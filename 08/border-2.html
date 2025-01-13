@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>박스모델</title>
+	<style>
+		div {
+			width:200px;
+			height:100px;
+			display:inline-block;
+			margin:15px;			
+			border-style:solid;  /* 테두리 스타일 - 실선 */
+		}
+		/* Do it! 테두리 두께 지정하기 */
+
+		.box_01{
+			border-width: .125rem;
+		}
+
+		.box_02{
+			border-width: thick thin;
+		}
+
+		.box_03{
+			border-width: thick thin thin;
+		}
+
+		.box_04{
+			border-width: .625rem .3125rem .3125rem .625rem;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="box_01"></div>
+	<div class="box_02"></div>
+	<div class="box_03"></div>
+	<div class="box_04"></div>
+</body>
+</html>

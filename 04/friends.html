@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>친한 축구선수 목록</title>
+</head>
+
+<style>
+  * {padding: 0; margin: 0;}
+  table {margin: auto; padding: auto;}
+  th, td {padding: 30px;}
+  table, th, td {
+    border: 1px solid #2342f2;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  thead {background-color: #bdc024; color: #ffffff;}
+</style>
+
+<body>
+  <header>
+    <h1>친한 축구선수 목록</h1>
+  </header>
+  <main>
+    <!-- 표 만들기 -->
+    <table>
+      <thead>
+        <tr>
+          <!-- 행 -->
+          <th>이름</th>
+          <th>연락처</th>
+          <th>주소</th>
+          <th>사진</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>호날두</td>
+          <td>080-9990-1111</td>
+          <td>포르투갈</td>
+          <td><img src=images/friends01.PNG></td>
+        </tr>
+        <tr>
+          <td>메시</td>
+          <td>000-3333-2222</td>
+          <td>아르헨티나</td>
+          <td><img src=images/friends02.PNG></td>
+        </tr>
+        <tr>
+          <td>토레스</td>
+          <td>010-1234-5222</td>
+          <td>스페인</td>
+          <td><img src=images/friends03.PNG></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table>
+      <colgroup>
+        <col style="width: 0%;">
+        <col style="background-color: bisque;">
+        <col style="color: red !important;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th><em>종류</em></th>
+          <th><em>설명</em></th>
+          <th><em>용도</em></th>
+        </tr>
+      </thead>
+        <tbody>
+          <tr>
+            <td>GIF</td>
+            <td>간단한 애니메이션을 지원합니다.</td>
+            <td>간단한 애니메이션이나 아이콘</td>
+          </tr>
+          <tr>
+            <td>JPG/JPEG</td>
+            <td>고해상도 사진을 작은 파일 크기로 압축할 수 있어서<br> 널리 사용합니다.</td>
+            <td>사진이나 그래픽</td>
+          </tr>
+          <tr>
+            <td>PNG</td>
+            <td>투명 배경을 지원합니다. 무손실 압축을 사용하므로<br> JPG보다 이미지를 더 나은 화질로 제공할 수 있습니다.</td>
+            <td>화질 저하 없이 투명 배경이 필요한 그래픽</td>
+          </tr>
+          <tr>
+            <td>WebP</td>
+            <td>GIF와 JPG, PNG의 장점을 하나로 결합한<br> 이미지 형식입니다.</td>
+            <td>고해상도의 이미지를 작은 파일 크기로 제공할 때</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <a href="resume.html">뒤로가기</a><br>
+    <img id="img_1" src="images/friends2.PNG">
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

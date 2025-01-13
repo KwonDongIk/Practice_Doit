@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<link rel="stylesheet" href="results/css/style.css">
+
+<head>
+	<meta charset="UTF-8">
+	<title>연습문제 2</title>
+</head>
+
+<body>
+	<div id="container">
+		<h1>프런트엔드 개발자 지원서 </h1>
+		<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+		<hr>
+		<form>
+			<div class="person_info">
+				<p class="p_01">개인 정보</p>
+				<div class="person_info_01">
+					<label for="name">이름
+						<input type="text" id="name" placeholder="공백 없이 입력하세요."><br>
+					</label>
+					<label for="tel">연락처
+						<input type="number" id="tel">
+					</label>
+				</div>
+			</div>
+
+			<div class="area">
+				<p class="p_01">지원 분야</p>
+				<div class="area_01">
+					<ul>
+						<li><label for="area_id_01">
+								<input type="radio" id="area_id_01" name="area_nm_01">웹 퍼블리싱<br>
+							</label>
+						</li>
+						<li><label for="area_id_02">
+								<input type="radio" id="area_id_02" name="area_nm_01">웹 애플리케이션 개발<br>
+							</label>
+						</li>
+						<li><label for="area_id_03">
+								<input type="radio" id="area_id_03" name="area_nm_01">개발 환경 개선<br>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="reason">
+				<p class="p_01">지원 동기</p>
+				<div class="reason_01">
+					<label for="reason_id_01">
+						<textarea name="" id="reason_id_01" placeholder="본사 지원 동기를 간략히 써 주세요." cols="60" rows="5"></textarea>
+					</label>
+				</div>
+			</div>
+
+			<div class="sb_rs_btn">
+				<input type="submit" class="sb_btn" value="접수하기">
+				<input type="reset" class="rs_btn" value="다시쓰기">
+			</div>
+
+		</form>
+	</div>
+</body>
+
+</html>
